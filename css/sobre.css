@@ -84,3 +84,17 @@ nav a:first-child {
 
     border-right: 1px solid var(--preto);
 }
+
+
+h1 {
+    margin: 3%;
+
+}
+
+
+p {
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: justify;
+
+}
