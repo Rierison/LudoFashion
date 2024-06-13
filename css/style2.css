@@ -139,5 +139,19 @@ footer {
     background-color: var(--cor-secundaria);
     color: var(--branco);
     text-align: center;
-    paddinm
+    padding: 1rem 0;
+    margin-top: 2rem;
+    
+}
+
+.contanier {
+    width: 90;
+    margin: auto;
+}
+
+footer .social-media {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
 }
