@@ -102,9 +102,11 @@ div {
     display: grid;    
     margin-left: 100px;
     border: none;
+    
 }
 .accordion-item input{
 	display:none;
+
 }
 .accordion-item label{
     font-size: 22px;
