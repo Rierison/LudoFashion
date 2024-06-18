@@ -158,12 +158,13 @@ div {
        
 }
 
-.problemas {
+.solução {
     font-size: 40px;
     color: var(black);
     margin-left: 400px;
     margin-right: 80px;
     padding: 1rem;
+    display: grid;
     
 }
 
