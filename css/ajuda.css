@@ -100,7 +100,7 @@ div {
 
 .accordions{
     display: grid;    
-    margin-left: 50px;
+    margin-left: 25px;
     border: none;
 
 }
@@ -137,9 +137,9 @@ div {
 }
 
 #imagemredonda {
-    border-radius: 50%;
-    margin-top: 100px;
-    margin-left: 300px;
+    border-radius: 100%;
+    margin-top: 30px;
+    margin-left: 150px;
 }
 
 .jovem {
@@ -150,4 +150,35 @@ div {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 
+}
+
+.tema {
+    font-size: 40px;
+    color: var(--branco);
+       
+}
+
+.problemas {
+    font-size: 40px;
+    color: var(black);
+    margin-left: 400px;
+    margin-right: 80px;
+    padding: 1rem;
+    
+}
+
+.fale {
+    font-size: 40px;
+    color: var(--branco);
+    margin-left: 300px;
+    margin-right: 130px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 1.5rem;
+    border-radius: 45px;
+    background-color: var(--cor-primaria);
+    cursor:pointer;
+    
+    
+    
 }
