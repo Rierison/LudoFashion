@@ -21,7 +21,7 @@ ul {
 * {
     padding: 0;
     margin: 0;
-   
+    box-sizing: border-box;
 
 }
 
@@ -85,65 +85,28 @@ nav a:first-child {
     border-right: 1px solid var(--preto);
 }
 
-p {
-    margin-left: 3%;
-    margin-right: 3%;
-    text-align: justify;
+
+h1 {
+    margin: 3%;
 
 }
 
 div {
-    display: flex;
-    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    grid-template-columns: no repeat(2, 1fr);
 }
+ 
 
 .ludofashion {
+    font-family: [oswald];
     font-size: 35px;
     color: var(--branco);
-    font-weight: 900;
-    margin-left: 10px;
+    text-align: center;
 }
 
-
-.categoria {
-    font-size: 35px;
-    color: var(--branco);
-    margin: 0px;
-    gap: 40px;
-    display: grid;
-    grid-template-columns: repeat(3, 2fr);
+* {
     text-align: center;
-    background-color: var(--cor-primaria);
-    margin-left: 14%;
-    margin-right: 14%;
-    margin-top: 5px;
-    border-radius: 50px;
-    padding: 80px;
-    justify-content: center;
-    }
-    
-    
-
-.adicionar {
-    font-size: 35px;
-    color: black;
-    text-align: center;
-    margin-left: 100px;
-    margin-top: 40px;
-        
 }
-
-.titulo {
-    font-size: 60px;
-    text-align: center;
-    margin-left: 10px;
-    margin-top: 0;
-    margin-bottom: 1px;
-    padding: 4%;
-   
-}
-
-
 
 
 
