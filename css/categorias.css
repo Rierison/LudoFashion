@@ -113,6 +113,7 @@ div {
     gap: 40px;
     display: grid;
     grid-template-columns: repeat(3, 2fr);
+
     text-align: center;
     background-color: var(--cor-primaria);
     margin-left: 14%;
@@ -126,14 +127,14 @@ div {
    
    
 .adicionar {
-    font-size: 35px;
-    color: black;
-    text-align: center;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 40px;
-    flex-direction: row;
-        
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+    
+    
 }
 
 .titulo {
