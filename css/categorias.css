@@ -130,7 +130,8 @@ div {
     grid-column: 2;
     display: flex;
     justify-content: center;
-    
+    margin-top: 25px;
+    margin-bottom: 20px;
     
     
     
