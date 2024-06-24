@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil - LudoFashion - Perfil</title>
+    <link rel="stylesheet" href="../css/perfil.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>LudoFashion</h1>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar...">
+                <button><img src="../LudoFashion/imgs/icon_search.png" width="30px" alt="Buscar"></button>
+            </div>
+            <nav>
+                <a href="#">Catálogo</a>
+                <a href="#">Dúvidas</a>
+                <a href="#">Sobre a Loja</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="profile-container">
+        <aside>
+            <nav>
+                <ul>
+                    <li><a href="#">Minha Conta</a></li>
+                    <li><a href="#">Lista de Desejos</a></li>
+                    <li><a href="#">Categorias</a></li>
+                    <li><a href="#">Produtos</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main>
+            <section class="profile-header">
+                <h2>Meu perfil</h2>
+                <p>Gerenciar e proteger sua conta</p>
+            </section>
+
+            <section class="profile-content">
+                <form action="#">
+                    <div class="profile-field">
+                        <label for="username">Nome do <br>usuário:</label>
+                        <span id="username">Fulano123</span>
+                    </div>
+
+                    <div class="profile-field">
+                        <label for="name">Nome:</label>
+                        <span id="name">Fulano da Silva Costa</span>
+                        <a href="#">Editar</a>
+                    </div>
+
+                    <div class="profile-field">
+                        <label for="email">Email:</label>
+                        <span id="email">fulanocosta@gmail.com</span>
+                        <a href="#">Editar</a>
+                    </div>
+
+                    <div class="profile-field">
+                        <label for="phone">Número de telefone:</label>
+                        <span id="phone">(98) 9 3576-9232</span>
+                        <a href="#">Editar</a>
+                    </div>
+
+                    <div class="profile-field">
+                        <label>Sexo:</label>
+                        <span>
+                            <input type="radio" id="male" name="gender" value="male">
+                            <label for="male">Masculino</label>
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="female">Feminino</label>
+                            <input type="radio" id="other" name="gender" value="other">
+                            <label for="other">Outros</label>
+                        </span>
+                    </div>
+
+                    <div class="profile-field">
+                        <label for="cpf">Nome/CPF:</label>
+                        <span id="cpf">Fulano Costa - 071.843.281-23</span>
+                        <a href="#">Editar</a>
+                    </div>
+
+                    <div class="profile-field">
+                        <label for="dob">Data de nascimento:</label>
+                        <span id="dob">03/06/2000</span>
+                        <a href="#">Editar</a>
+                    </div>
+
+                    <button type="submit">Gravar</button>
+                </form>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="social-media">
+                <a href="#"><img src="icons/whatsapp.svg" alt="WhatsApp"></a>
+                <a href="#"><img src="icons/instagram.svg" alt="Instagram"></a>
+                <a href="#"><img src="icons/facebook.svg" alt="Facebook"></a>
+                <a href="#"><img src="icons/tiktok.svg" alt="TikTok"></a>
+            </div>
+            <p>&copy; 2024 LudoFashion. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
