@@ -126,10 +126,15 @@ body {
     border-radius: 10px;
     text-align: center;
     cursor: pointer;
+    gap: 20px;
     
 }
 
-.button-hover {
+.tela {
+    padding: 20px;
+}
+
+.botao-form {
     background-color: deepskyblue;
 
 
