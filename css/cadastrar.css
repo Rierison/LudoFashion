@@ -107,14 +107,18 @@ nav a:first-child {
 
 }
 
-.div-form {
-
+.container {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
     border: 1px solid black;
     background-color: var(--cor-primaria);
     border-radius: 55px;
     width: 700px;
-    height: 400px;
-    padding: 2rem;
+    height: 435px;
+    padding: 6rem;
+    
     
 }
 
@@ -124,6 +128,7 @@ nav a:first-child {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    
 }
 
 .dados {
@@ -131,40 +136,40 @@ nav a:first-child {
     flex-direction: column;
 }
 
-.div-form h1 {
-    font-size: 32px;
-    text-align: center;
-    margin-bottom: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
+#cadastrar {
+    align-items: flex-start;
+    
 }
 
-.form-group {
+h1 {
+    padding-top: 20px;
+}
+
+.form-group {   
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 
+}
+.form-group-item {
+    padding-top: 35px;
+    justify-content: space-between;
 }
 
 .form-group input {
-    /* font-size: 1.5rem; */
-    width: 15rem;
-    height: 1.5rem;
+    font-size: 1.5rem;
+    width: 20rem;
+    height: 1.9rem;
     border-radius: 5px;
     border: none;
- 
-
-
 }
-
-
-
 
 
 
 .input {
-    padding: 15px;
+    padding: 25px;
     border: none;
     outline: none;
     font-size: 15px;
@@ -188,4 +193,12 @@ nav a:first-child {
 
 
 }
+
+
+.icons {
+    align-items: end;
+    padding: 50px;
+    
+}
+    
 
