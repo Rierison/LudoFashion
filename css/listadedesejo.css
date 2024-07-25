@@ -129,7 +129,6 @@ nav a:first-child {
 
 /* Segundo Container*/
 .containertwo {
-    /* display: flex; */
     background-color: #fdace0;
     font-family: sans-serif;
    
@@ -141,24 +140,73 @@ fieldset, h1, h2 {
     font-family: sans-serif;
 }
 
-.user, .user1, .name, .name1, .email, .email1 {
+.user, .user1, .name, .name1, .email, .email1 .telefone, .telefone1, .cpf, .cpf1 {
     display: inline-block;
 }
 
-.user, .user1 {
-    /* margin-left: 10px; */
+.user {
     margin-bottom: 20px;
-    margin-right: 15px;
+    margin-right: 19px;
 }
 
-.name, .name1 {
+.user1 {
+    border-radius: 4px;
+    padding: 6px;
+    padding-right: 50px;
+
+} 
+
+
+
+.name {
+    margin-right: 34px;
+    margin-bottom: 20px;
+}
+
+.name1 {
+    border-radius: 4px;
+    position: center;
+    padding: 6px;
+    padding-right: 50px;
+}
+
+
+
+.email {
     margin-left: 10px;
     margin-bottom: 20px;
 }
 
-.email, .email1 {
-    margin-left: 10px;
+.email1 {
+    border-radius: 4px;
+    margin-left: 25px;
+    padding: 6px;
+    padding-right: 50px;
+    position: center;
+}
+
+.telefone {
+    margin-right: 13px;
+    margin-bottom: 20px;    
+}
+
+.telefone1 {
+    border-radius: 4px;
+    padding: 6px;
+    padding-right: 50px;
+}
+
+.cpf {
+    margin-left: 25px;
+    margin-top: 20px ;
+    margin-right: 20px;
     margin-bottom: 20px;
+}
+
+.cpf1 {
+    border-radius: 4px;
+    padding: 6px;
+    padding-right: 50px;
 }
 
 
