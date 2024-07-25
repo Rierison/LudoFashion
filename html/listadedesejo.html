@@ -1,96 +1,128 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Minha lista de desejo</title>
-    <link rel="stylesheet" href="../css/listadedesejo.css">
-</head>
+    <link rel="stylesheet" href="../css/listadedesejo.css" />
+  </head>
 
-
-<body>
-
+  <body>
     <header>
+      <h1 class="ludofashion">LudoFashion</h1>
 
-        <h1 class="ludofashion">LudoFashion</h1>
+      <form action="" id="form-buscar">
+        <input
+          type="search"
+          name="buscar"
+          id="buscar"
+          placeholder="Buscar..."
+        />
+        <button type="submit" id="btn-buscar">
+          <img src="../imgs/buscar.png.png" alt="" width="30px" />
+        </button>
+      </form>
 
-        <form action="" id="form-buscar">
-            <input type="search" name="buscar" id="buscar" placeholder="Buscar...">
-            <button type="submit" id="btn-buscar"><img src="../imgs/buscar.png.png" alt="" width="30px"></button>
-        </form>
+      <a href="" class="icon-link">
+        <img src="../imgs/user.png" alt="" width="40px" />
+      </a>
 
+      <a href="" class="icon-link">
+        <img src="../imgs/house.png" alt="" width="40px" />
+      </a>
 
-        <a href="" class="icon-link">
+      <a href="" class="icon-link">
+        <img src="../imgs/heart.png" alt="" width="40px" />
+      </a>
 
-            <img src="../imgs/user.png" alt="" width="40px">
-
-        </a>
-
-        <a href="" class="icon-link">
-            <img src="../imgs/house.png" alt="" width="40px">
-
-        </a>
-
-        <a href="" class="icon-link">
-            <img src="../imgs/heart.png" alt="" width="40px">
-
-
-        </a>
-
-        <a href="" class="icon-link">
-            <img src="../imgs/service.png" alt="" width="40px">
-
-        </a>
-
-
+      <a href="" class="icon-link">
+        <img src="../imgs/service.png" alt="" width="40px" />
+      </a>
     </header>
 
     <nav>
-        <a href="">Catálogo</a>
+      <a href="">Catálogo</a>
 
-        <a href="">Sobre a Loja</a>
+      <a href="">Sobre a Loja</a>
     </nav>
 
-    <section class="lista">
+    <h1 class="segundo-1">Meu Perfil</h1>
+    <h2 class="segundo-2">Gerenciar e proteger sua conta</h2>
 
+    <section class="container">
 
-        <div class="primeiro">
-
-            <div class="item">
-                <a href=""> <img src="../imgs/person1.PNG" alt="" width="50px"></a>
-                <a class="item-2" href="" title="Minha Conta"><b>Minha Conta</b></a>
-            </div>
-
-            <div class="item">
-                <a href=""> <img src="../imgs/heart.png" alt="" width="50px"></a>
-                <a class="item-2" href="" title="Lista de Desejos"><b>Lista de Desejos</b></a>
-            </div>
-
-            <div class="item">
-                <a href=""> <img src="../imgs/categoriasfreepik.png" alt="" width="50px"></a>
-                <a class="item-2" href="" title="Categorias"><b>Categorias</b></a>
-            </div>
-            <div class="item">
-                <a href=""> <img src="../imgs/produtosorvipixel.png" alt="" width="50px"></a>
-                <a class="item-2" href="" title="Produtos"><b>Produtos</b></a>
-            </div>
-
+      <div class="containerone">
+        <div class="item">
+          <a href=""> <img src="../imgs/person1.PNG" alt="" width="50px" /></a>
+          <a class="item-2" href="" title="Minha Conta"><b>Minha Conta</b></a>
         </div>
 
-        <div class="segundo">
-            <div>
-
-                <h1 class="segundo-1">Minha Lista de desejo</h1>
-                <p class="segundo-2">Gerenciar sua lista de desejo</p>
-
-            </div>
-
+        <div class="item">
+          <a href=""> <img src="../imgs/heart.png" alt="" width="50px" /></a>
+          <a class="item-2" href="" title="Lista de Desejos"
+            ><b>Lista de Desejos</b></a
+          >
         </div>
+
+        <div class="item">
+          <a href="">
+            <img src="../imgs/categoriasfreepik.png" alt="" width="50px"
+          /></a>
+          <a class="item-2" href="" title="Categorias"><b>Categorias</b></a>
+        </div>
+        <div class="item">
+          <a href="">
+            <img src="../imgs/produtosorvipixel.png" alt="" width="50px"
+          /></a>
+          <a class="item-2" href="" title="Produtos"><b>Produtos</b></a>
+        </div>
+      </div>
+
+      <form class="containertwo" action="" id="form-buscar">
+
+        <div>
+          <fieldset>
+            <div class="usuario">
+              <label class="user"><strong>Usuário</strong></label>
+              <input class="user1" type="name" name="name" id="name" required />
+            </div>
+  
+            <div class="nome">
+              <label class="name"><strong>Nome:</strong></label>
+              <input class="name1" type="name" name="name" id="name" required />
+            </div>
+           
+  
+          
+          </fieldset>
+  
+          <div class="selecionar">
+            <label><strong>Sexo:</strong></label>
+  
+            <label>
+              <input
+                type="radio"
+                name="devweb"
+                value="masculino"
+                checked
+              />Masculino
+            </label>
+  
+            <label>
+              <input type="radio" name="devweb" id="feminino" />Feminino
+            </label>
+  
+            <label>
+              <input type="radio" name="devweb" id="outros" />Outros
+            </label>
+          </div>
+  
+          <button class="" type="submit"><strong>Gravar</strong></button>
+        </div>
+
         
 
+      </form>
     </section>
-
-
-</body>
+  </body>
+</html>
