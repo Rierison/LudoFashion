@@ -78,32 +78,7 @@ nav a:first-child {
     border-right: 1px solid var(--preto);
 }
 
-/* Container Principal*/
-.container {    
-    display: grid;
-    grid-template-columns: 30% 60%;
-    margin: 2%;
-    margin-top: 20px;
-}
 
-
-/* Primeiro Container*/
-.containerone {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-family: sans-serif;   
-   
-
-}
-
-/* Segundo Container*/
-.containertwo {
-    /* display: flex; */
-    background-color: #fdace0;
-    font-family: sans-serif;
-   
-}
 
 .segundo-1 {
     padding-top: 20px;
@@ -132,29 +107,58 @@ nav a:first-child {
 }
 
 
+
+/* Container Principal*/
+.container {    
+    display: grid;
+    grid-template-columns: 30% 60%;
+    margin: 2%;
+    margin-top: 20px;
+}
+
+
+/* Primeiro Container*/
+.containerone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: sans-serif;   
+   
+
+}
+
+/* Segundo Container*/
+.containertwo {
+    /* display: flex; */
+    background-color: #fdace0;
+    font-family: sans-serif;
+   
+}
+
+
 fieldset, h1, h2 {
     border: 0;
     font-family: sans-serif;
 }
 
-.user {
+.user, .user1, .name, .name1, .email, .email1 {
     display: inline-block;
+}
+
+.user, .user1 {
+    /* margin-left: 10px; */
+    margin-bottom: 20px;
+    margin-right: 15px;
+}
+
+.name, .name1 {
     margin-left: 10px;
     margin-bottom: 20px;
 }
 
-.user1 {
-    /* margin-left: 20x; */
-}
-
-.name {
-    display: inline-block;
+.email, .email1 {
     margin-left: 10px;
     margin-bottom: 20px;
-}
-
-.name1 {
-    margin-left: 10px;
 }
 
 
