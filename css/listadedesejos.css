@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* :root {
+    --cor-primaria: #f464c3;
+    --cor-secundaria: #3d1c31;
+    --cor-terciaria: #fdace0;
+    --branco: white;
+    --preto: black;
+
+} */
+
+
+
+/* body{
+    background-color: #ffffff;
+    font-size: 1em;
+    color: black;
+    
+} */
+
+
+:root {
+    --color-neutral-0: #0e0c0c;
+    --color-neutral-10: #171717;
+    --color-neutral-30: #a8a29e;
+    --color-neutral-40: #f5f5f5;
+}
+
+
+
+* {    
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;  /*Espaçamento entre as letras*/
+
+}
+
+footer {
+    width: 100%; /*preenche 100% da largura do body*/
+    color: #f5f5f5;
+
+}
+
+.footer-link {
+    text-decoration: none; /*tira o sublinhado do linl nos links*/
+}
+
+#footer_content {    
+    display: grid;   /*Distribuir os ítens em quatro colunas*/
+    grid-template-columns: repeat(4, 1fr) ; /* cria quatro colunas com medidas de 1fr cada*/
+    padding: 3rem 3.5rem; /*espaçamento superior e inferior de 3rem e espaçamento lado esquerdo e direito de aproximadamente 3.5rem cada*/
+    background-color: #3d1c31;;
+}
+
+#footer_contacts h1 {
+    margin-bottom: 0.75rem;
+
+}
+
+#footer_social_media {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+#footer_social_media .footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: #f5f5f5;
+    border-radius: 50%;
+    transition: all 0.4s; /*utilizado para definir o efeito de transição da opacidade ao passsar o mouse por cima dos ícones*/
+    
+}
+
+
+/*Aumenta o tamanho interno dos ícones*/
+#footer_social_media .footer-link i {
+    font-size: 1.25rem;
+}
+
+
+/*Vai diminuir a opacidade dos ícones ao passsar o mouse por cima*/
+#footer_social_media .footer-link:hover {
+    opacity: 0.8;
+}
+
+#instagram {
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+
+#facebook {
+    background-color: #4267b3;    
+}
+
+#whatsapp {
+    background-color: #25d366;
+}
+
+#twitter {
+    background-color: black;
+}
+
+#tiktok {
+    color: #ff0050;
+}
+
+#tiktok {
+    background-color: black;
+}
+
+/*A lista*/
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;    /*espaçamento entre os ítens da lista*/
+    list-style: none;  /*tira as bolinhas da tag list*/
+    
+}
+
+
+/*Define os itens da lista*/
+.footer-list .footer-link {
+    color: var(--color-neutral-30);
+    transition: all 0.4s;   /*utilizado para definir o efeito de transição da opacidade ao passsar o mouse por cima dos ícones*/
+}
+
+
+.footer-list .footer-link:hover {
+    color: #7f37c9;
+}
+
+#footer-subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#footer-subscribe p {
+    color: var(--color-neutral-30);
+
+}
+
+#input_group {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-neutral-0);
+    border-radius: 4px;
+}
+
+/* estilização da caixa do email*/
+#input_group input {
+
+    all: unset;    /*tira toda customização padrão*/
+    pad: 0.75rem; /*aumenta o tamanho do espaçamento interno*/
+    width: 100%;
+    
+}

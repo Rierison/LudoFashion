@@ -1,25 +1,21 @@
-:root
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+/*Variavéis de cores*/
 /*--paleta de cores--*/
 
-    {
+/* :root {
     --cor-primaria: #f464c3;
     --cor-secundaria: #3d1c31;
     --cor-terciaria: #fdace0;
     --branco: white;
     --preto: black;
 
-}
+} */
 
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-
-}
-
-
-header {
+/* header {
     background-color: var(--cor-primaria);
     display: flex;
     padding: 1rem;
@@ -206,9 +202,20 @@ fieldset, h1, h2 {
 .cpf1 {
     border-radius: 4px;
     padding: 6px;
-    padding-right: 50px;
-}
+    padding-r
+    ight: 50px;
+} */
 
+
+
+:root {
+    --cor-primaria: #f464c3;
+    --cor-secundaria: #3d1c31;
+    --cor-terciaria: #fdace0;
+    --branco: white;
+    --preto: black;
+
+}
 
 
 
@@ -218,6 +225,99 @@ body{
     color: black;
     
 }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 1px;  /*Espaçamento entre as letras*/
+
+}
+
+footer {
+    width: 100%; /*tem 100% de largura*/
+    color: #f5f5f5;
+
+}
+
+.footer_content {
+    background-color: var(--cor-secundaria);
+    display: grid;   /*Distribuir os ítens em quatro colunas*/
+    grid-template-columns: repeat(4, 1fr) ; /* cria quatro colunas com medidas de 1fr cada*/
+    padding: 3rem, 3.5rem; /*espaçamento superior e inferior de 3rem e espaçamento lado esquerdo e direito de aproximadamente 3.5rem cada*/
+}
+
+#footer_contacts h1 {
+    margin-bottom: 0..75rem;
+}
+
+#footer_social_media {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+#footer_social_media .footer-link {
+    display: flex;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer {
+    background-color: var(--cor-secundaria);
+    color: var(--branco);
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    
+}
+
+.containerfooter {
+    height: 100%;
+    max-height: 300px;
+    margin-top: 100px; 
+    
+    
+    /* margin-top: 20%;   */
+}
+
+/* .footer {
+    width: 90;
+    margin: auto;
+} */
+
+/* .footer .social-media {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}  */
 
 
 /* margin-left: 36%; */
