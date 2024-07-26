@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link
       rel="stylesheet"
@@ -12,127 +12,242 @@
       referrerpolicy="no-referrer"
     />
 
-    <link rel="stylesheet" href="../css/listadedesejos.css">
+    <link rel="stylesheet" href="../css/listadedesejos.css" />
     <title>Lista de Desejos</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1 class="ludofashion">LudoFashion</h1>
 
-</head>
-<body>
-  <main>
-    
-  </main>    
-    <footer>
-        <div id="footer_content">
-    
-            <div class="footer_contacts">
-    
-                <h1>LudoFashion</h1>
-                <p>It's all about your dreams.</p>
-                
-                <div id="footer_social_media">
-    
-                    <a href="" class="footer-link" id="instagram">
-                      <i class="fa-brands fa-instagram"></i>
-                    </a>
-                    
-          
-                    <a href="" class="footer-link" id="facebook">
-                      <i class="fa-brands fa-facebook-f"></i>
-                    </a>
-                    
-          
-                    <a href="" class="footer-link" id="whatsapp">
-                      <i class="fa-brands fa-whatsapp"></i>
-                    </a>
-                    
-          
-                    <a href="" class="footer-link" id="twitter">
-                        <i class="fa-brands fa-x-twitter"></i>
-                    </a>
-                    <a href="" class="footer-link" id="tiktok">
-                        <i class="fa-brands fa-tiktok"></i>
-                    </a>
+        <form action="" id="form-buscar">
+          <input
+            type="search"
+            name="buscar"
+            id="buscar"
+            placeholder="Buscar..."
+          />
+          <button type="submit" id="btn-buscar">
+            <img src="../imgs/buscar.png.png" alt="" width="30px" />
+          </button>
+        </form>
 
-                  </div>
-    
-    
-            </div>
-    
-          <ul class="footer-list">
-    
-            
-              <h2>Blog</h2>
-            
-            <li>
-              <a href="#" class="footer-link">Tech</a>
-            </li>
+        <a href="" class="icon-link">
+          <img src="../imgs/user.png" alt="" width="40px" />
+        </a>
 
-            <li>
-              <a href="#" class="footer-link">Adventures</a>
-            </li>
+        <a href="" class="icon-link">
+          <img src="../imgs/house.png" alt="" width="40px" />
+        </a>
 
-            <li>
-              <a href="#" class="footer-link">Music</a>
-            </li>
-    
-          </ul>
-    
-          <ul class="footer-list">
-    
-            
-              <h2>Produtos</h2>
-            
-            <li>
-              <a href="#" class="footer-link">App</a>
-            </li>
-            <li>
-              <a href="#" class="footer-link">Desktop</a>
-            </li>
-            <li>
-              <a href="#" class="footer-link">Cloud</a>
-            </li>
-    
-          </ul>
-    
-            <div id="footer_subscribe">
-    
-                <h3>Subscribe</h3>
-    
-                <p>
-                    Enter your e-mail to get notified about our news solutions                
-                </p>
-    
-                <div id="input_group">
-    
-                    <input type="email" id="email" />
-    
-                    <button>
-                        <i class="fa-regular fa-envelope"></i>
-                    </button>
-    
-                </div>
-    
-            </div>
-          
+        <a href="" class="icon-link">
+          <img src="../imgs/heart.png" alt="" width="40px" />
+        </a>
+
+        <a href="" class="icon-link">
+          <img src="../imgs/service.png" alt="" width="40px" />
+        </a>
+      </header>
+
+      <nav>
+        <a href="">Catálogo</a>
+
+        <a href="">Sobre a Loja</a>
+      </nav>
+
+      <h1 class="segundo-1">Meu Perfil</h1>
+      <h2 class="segundo-2">Gerenciar e proteger sua conta</h2>
+
+      <section class="container">
+        <div class="containerone">
+          <div class="item">
+            <a href="">
+              <img src="../imgs/person1.PNG" alt="" width="50px"
+            /></a>
+            <a class="item-2" href="" title="Minha Conta"><b>Minha Conta</b></a>
+          </div>
+
+          <div class="item">
+            <a href=""> <img src="../imgs/heart.png" alt="" width="50px" /></a>
+            <a class="item-2" href="" title="Lista de Desejos"
+              ><b>Lista de Desejos</b></a
+            >
+          </div>
+
+          <div class="item">
+            <a href="">
+              <img src="../imgs/categoriasfreepik.png" alt="" width="50px"
+            /></a>
+            <a class="item-2" href="" title="Categorias"><b>Categorias</b></a>
+          </div>
+          <div class="item">
+            <a href="">
+              <img src="../imgs/produtosorvipixel.png" alt="" width="50px"
+            /></a>
+            <a class="item-2" href="" title="Produtos"><b>Produtos</b></a>
+          </div>
         </div>
-        <div id="footer_copyright">
-          <!-- &#169 -->
-          <p>©️ 2024 LudoFashion. Todos os direitos reservados</p>
-        </div>  
+
+        <form class="containertwo" action="" id="form-buscar">
+          <div class="adm">
+            <fieldset>
+              <div class="usuario">
+                <label class="user"><strong>Usuário:</strong></label>
+                <input
+                  class="user1"
+                  type="name"
+                  name="name"
+                  id="name"
+                  required
+                />
+              </div>
+
+              <div class="nome">
+                <label class="name"><strong>Nome:</strong></label>
+                <input
+                  class="name1"
+                  type="name"
+                  name="name"
+                  id="name"
+                  required
+                />
+              </div>
+
+              <div class="nome">
+                <label class="email"><strong>Email:</strong></label>
+                <input
+                  class="email1"
+                  type="email"
+                  name="email"
+                  id="email"
+                  required
+                />
+              </div>
+              <div class="nome">
+                <label class="telefone"><strong>Telefone:</strong></label>
+                <input
+                  class="telefone1"
+                  type="number"
+                  name="number"
+                  id="number"
+                  required
+                />
+              </div>
+              <div class="nome">
+                <label class="cpf"><strong>CPF:</strong></label>
+                <input
+                  class="cpf1"
+                  type="number"
+                  name="number"
+                  id="number"
+                  required
+                />
+              </div>
+            </fieldset>
+
+            <div class="selecionar">
+              <label><strong>Sexo:</strong></label>
+
+              <label>
+                <input
+                  type="radio"
+                  name="devweb"
+                  value="masculino"
+                  checked
+                />Masculino
+              </label>
+
+              <label>
+                <input type="radio" name="devweb" id="feminino" />Feminino
+              </label>
+
+              <label>
+                <input type="radio" name="devweb" id="outros" />Outros
+              </label>
+            </div>
+
+            <button class="" type="submit"><strong>Gravar</strong></button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div id="footer_content">
+        <div class="footer_contacts">
+          <h1>LudoFashion</h1>
+          <p>It's all about your dreams.</p>
+
+          <div id="footer_social_media">
+            <a href="" class="footer-link" id="instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="" class="footer-link" id="facebook">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+
+            <a href="" class="footer-link" id="whatsapp">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+
+            <a href="" class="footer-link" id="twitter">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a href="" class="footer-link" id="tiktok">
+              <i class="fa-brands fa-tiktok"></i>
+            </a>
+          </div>
+        </div>
+
+        <ul class="footer-list">
+          <h2>Blog</h2>
+
+          <li>
+            <a href="#" class="footer-link">Tech</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Adventures</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Music</a>
+          </li>
+        </ul>
+
+        <ul class="footer-list">
+          <h2>Produtos</h2>
+
+          <li>
+            <a href="#" class="footer-link">App</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">Desktop</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">Cloud</a>
+          </li>
+        </ul>
+
+        <div id="footer_subscribe">
+          <h3>Subscribe</h3>
+
+          <p>Enter your e-mail to get notified about our news solutions</p>
+
+          <div id="input_group">
+            <input type="email" id="email" />
+
+            <button>
+              <i class="fa-regular fa-envelope"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div id="footer_copyright">
+        <!-- &#169 -->
+        <p>©️ 2024 LudoFashion. Todos os direitos reservados</p>
+      </div>
     </footer>
-    
-</body>
+  </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-

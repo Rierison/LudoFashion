@@ -2,20 +2,22 @@
 
 
 
-/*Variavéis de cores*/
+Variavéis de cores
+
+
 /*--paleta de cores--*/
 
-/* :root {
+:root {
     --cor-primaria: #f464c3;
     --cor-secundaria: #3d1c31;
     --cor-terciaria: #fdace0;
     --branco: white;
     --preto: black;
 
-} */
+}
 
 
-/* header {
+header {
     background-color: var(--cor-primaria);
     display: flex;
     padding: 1rem;
@@ -204,122 +206,5 @@ fieldset, h1, h2 {
     padding: 6px;
     padding-r
     ight: 50px;
-} */
-
-
-
-:root {
-    --cor-primaria: #f464c3;
-    --cor-secundaria: #3d1c31;
-    --cor-terciaria: #fdace0;
-    --branco: white;
-    --preto: black;
-
 }
 
-
-
-body{
-    background-color: #ffffff;
-    font-size: 1em;
-    color: black;
-    
-}
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
-    letter-spacing: 1px;  /*Espaçamento entre as letras*/
-
-}
-
-footer {
-    width: 100%; /*tem 100% de largura*/
-    color: #f5f5f5;
-
-}
-
-.footer_content {
-    background-color: var(--cor-secundaria);
-    display: grid;   /*Distribuir os ítens em quatro colunas*/
-    grid-template-columns: repeat(4, 1fr) ; /* cria quatro colunas com medidas de 1fr cada*/
-    padding: 3rem, 3.5rem; /*espaçamento superior e inferior de 3rem e espaçamento lado esquerdo e direito de aproximadamente 3.5rem cada*/
-}
-
-#footer_contacts h1 {
-    margin-bottom: 0..75rem;
-}
-
-#footer_social_media {
-    display: flex;
-    gap: 2rem;
-    margin-top: 1.5rem;
-}
-
-#footer_social_media .footer-link {
-    display: flex;
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* footer {
-    background-color: var(--cor-secundaria);
-    color: var(--branco);
-    text-align: center;
-    padding: 1rem 0;
-    margin-top: 2rem;
-    
-}
-
-.containerfooter {
-    height: 100%;
-    max-height: 300px;
-    margin-top: 100px; 
-    
-    
-    /* margin-top: 20%;   */
-}
-
-/* .footer {
-    width: 90;
-    margin: auto;
-} */
-
-/* .footer .social-media {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    margin-bottom: 1rem;
-}  */
-
-
-/* margin-left: 36%; */
-    /* margin-top: 2%; */
-    /* justify-content: center; */
