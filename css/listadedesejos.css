@@ -38,6 +38,14 @@
 
 }
 
+
+/*a tag main vai ter uma altura de 80vh*/
+/*O que significa jjogar a footer para baixo da tela*/
+main {
+    height: 80vh; /*Uma altura de 80vh*/
+}
+
+
 footer {
     width: 100%; /*preenche 100% da largura do body*/
     color: #f5f5f5;
@@ -156,8 +164,41 @@ footer {
 /* estilização da caixa do email*/
 #input_group input {
 
-    all: unset;    /*tira toda customização padrão*/
+    all: unset;    /*para tirar toda customização padrão*/
     pad: 0.75rem; /*aumenta o tamanho do espaçamento interno*/
     width: 100%;
+    
+}
+
+#input_group button {
+    background-color: #7f37c9;
+    border: none;
+    color: var(--color-neutral-40);
+    padding: 0px 1.25rem;
+    font-size: 1.123rem;
+    height: 100%;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+#input_group button:hover {
+    opacity: 0.8;
+
+}
+
+#footer_copyright {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-neutral-0);
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    font-weight: 100;
+}
+
+
+
+/*Usando @media pode deixar qualquer coisa responsiva*/
+@media screen and (max-width:768px) {
     
 }
