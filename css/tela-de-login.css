@@ -86,7 +86,9 @@ nav a:first-child {
     border-right: 1px solid var(--preto);
 }
 
-.ludofashion {
+
+/*Logo da página*/
+.logo {
     font-size: 35px;
     color: var(--branco);
     font-weight: 900;
