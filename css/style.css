@@ -43,12 +43,13 @@ ul {
 
 
 header {
-    display: grid;
-    grid-template-columns: repeat(4, 0.5fr);
+    display:flex;
+    justify-content: space-between;
     background-color: var(--cor-primaria);
     unicode-bidi: isolate;
     align-items: center;
     justify-content: center;
+    padding: 0.75rem;
     
 
 }
@@ -66,10 +67,9 @@ header {
     align-items: center;
     justify-content: center;
     flex-grow: 1;
-    align-items: center;
-    justify-content: center;
     padding: 3px 3px;
-    border-radius: 5px;   
+    border-radius: 5px;
+    margin-right: 250px;  
 
 }
 
@@ -85,12 +85,14 @@ header {
 
 /*Logo da página*/
 .logo {
+    display: flex;
+    justify-content: flex-start;
     font-family: inter; 
     font-size: 35px;
     color: var(--branco);
     font-weight: 900;
-    margin-left: 200px;
-    margin-right: 45px;
+    margin-left: 80px;
+    margin-right: 25px;
     text-decoration: none; /*tira o sublinhado da linha nos links*/
 }
 
@@ -100,7 +102,7 @@ header {
 
 #buscar {
     display: flex;
-    flex-direction: start;
+    justify-content: flex-start;
     flex-grow: 75;
     padding: 0.9rem;
     border-radius: 5px;
@@ -112,6 +114,8 @@ header {
 
 
 #btn-buscar {
+    display: flex;
+    justify-content: flex-start;
     background-color: transparent;
     border: none;
     position: absolute;
@@ -122,26 +126,53 @@ header {
 
 .img {
     display: flex;
-    flex-direction: end;
-    margin-left: 0.1px;    
+    margin-left: 5px;    
     cursor: pointer;    
     border-radius: none;
     background-color: transparent;
     border: none;
     color: var(--color-neutral-40);
+    padding-left: 50px;
    
    
     
 }
 
+
 .icon-link {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
     text-align: center;
-    margin: 0.5rem;
     text-decoration: none; /*tira o sublinhado da linha nos links*/
+    margin-left: 80px;
+    margin-right: 250px;
+    gap: 50px;
 }
+
+.text1 {
+    display: flex;
+    justify-content: end;
+    /* text-align: center; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* margin-left: 9rem; */
+    margin: 0.5rem;
+    
+    
+}
+
+.text2 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0.6rem;
+    margin-left: ;
+    /* margin-left: 100px; */
+    
+}
+   
+
 
 nav { 
     font-size: inter;
@@ -164,10 +195,7 @@ nav a:first-child {
     color: black;
 }
 
-.text {
-    margin: 0.7rem;    
-}
-    
+ 
 
 
 
