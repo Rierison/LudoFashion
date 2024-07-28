@@ -39,50 +39,131 @@ ul {
 
 
 header {
+    display:flex;
+    justify-content: space-between;
     background-color: var(--cor-primaria);
-    display: flex;
-    padding: 5px;
+    unicode-bidi: isolate;
     align-items: center;
+    justify-content: center;
+    padding: 0.75rem;
+    
+
+}
+
+#form {
+    
+    background-color: var(--color-neutral-40);
+    
     
 
 }
 
 #form-buscar {
-    flex-grow: 1;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
+    flex-grow: 1;
+    padding: 3px 3px;
+    border-radius: 5px;
+    margin-right: 250px;  
 
 }
 
+.bcr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 12px;
+    gap: 6px;
+    border-radius: 5px;
+    transform: translate(-50% -50%);
+}
+
+/*Logo da página*/
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    font-family: inter; 
+    font-size: 35px;
+    color: var(--branco);
+    font-weight: 900;
+    margin-left: 80px;
+    margin-right: 25px;
+    text-decoration: none; /*tira o sublinhado da linha nos links*/
+}
+
+.font {
+    text-decoration: none; /*tira o sublinhado da linha nos links*/
+}
+
 #buscar {
-    flex-grow: 0.75;
-    padding: 0.5rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-grow: 75;
+    padding: 0.9rem;
     border-radius: 5px;
     outline: none;
     color: var(--preto);
 
 }
 
-.icon-link {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin: 0.5rem;
-    text-decoration: none; /*tira o sublinhado da linha nos links*/
-}
+
 
 #btn-buscar {
+    display: flex;
+    justify-content: flex-start;
     background-color: transparent;
     border: none;
     position: absolute;
     right: 11.5%;
     cursor: pointer;
-
-
+    
 }
+
+.img {
+    display: flex;
+    margin-left: 5px;    
+    cursor: pointer;    
+    border-radius: none;
+    background-color: transparent;
+    border: none;
+    color: var(--color-neutral-40);
+    
+   
+   
+    
+}
+
+
+.icon-link {
+    display: inline-grid;
+    grid-template-columns-reverse: repeat(2, 1fr);
+    place-items: center;
+    text-align: center;
+    text-decoration: none; /*tira o sublinhado da linha nos links*/
+    margin-left: 5px;
+    margin-right: 20px;
+    gap: 0.5px;
+}
+
+.text1 {
+    display: flex;
+    margin: 0.4rem;
+  
+    
+    
+}
+
+.text2 {
+    display: flex;
+    margin: 0.4rem;   
+    
+    
+   
+    
+}
+   
+
 
 nav { 
     font-size: inter;
@@ -90,7 +171,7 @@ nav {
     grid-template-columns: repeat(2, 1fr);
     text-align: center;
     background-color: var(--cor-terciaria);
-    padding: 0.5rem;
+    padding: 0.3rem;
 
 
 }
@@ -104,28 +185,6 @@ nav a:first-child {
     font-size: 1.1rem;
     color: black;
 }
-
-.text {
-    margin: 0.7rem;    
-}
-    
-
-
-
-/*Logo da página*/
-.logo {
-    font-family: inter; 
-    font-size: 35px;
-    color: var(--branco);
-    font-weight: 900;
-    margin-left: 10px;
-    text-decoration: none; /*tira o sublinhado da linha nos links*/
-}
-
-.font {
-    text-decoration: none; tira o sublinhado da linha nos links
-}
-
 .ludofashion {
     font-size: 35px;
     color: var(--branco);
