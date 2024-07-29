@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ajuda</title>
+    <title>Home</title>
 
     <link
       rel="stylesheet"
@@ -44,35 +44,28 @@
 
       <form>
 
-        
+        <div>
           <a href="" class="icon-link">
-            <a>
-              <img
+            <img
             class="text1"
               src="../imgs/person100.png"
               alt=""
               width="30px"
             />cadastre-se<br />ou faça login
-            </a>
-            
-          </a>
-        
+          </a>      
 
         
 
           <a href="" class="icon-link">
-            <a>
-              <img
+            <img
             class="text2"
               src="../imgs/help.png"
               alt=""
               width="30px"
             />dúvidas
-            </a>
-            
           </a>
 
-      
+        </div>
 
       </form>
     </header>
@@ -84,82 +77,85 @@
     </nav>
 
     <main id="perguntas">
+      <section>
+        <h1 class="h1">Principais perguntas:</h1>
 
-        <section>
+        <div class="accordions">
+          <div class="accordion-item">
+            <input
+              type="radio"
+              name="accordion"
+              checked="checked"
+              id="accordion-1"
+            />
+            <label for="accordion-1"
+              >Como faço para adicionar um produto à minha lista de
+              desejos?</label
+            >
+            <div class="accordion-content">Minha Empresa</div>
+          </div>
 
-            <h1 class="h1">Principais perguntas:</h1>
+          <div class="accordion-item">
+            <input type="radio" name="accordion" id="accordion-2" />
+            <label for="accordion-2"
+              >Como posso pesquisar produtos no site?</label
+            >
+            <div class="accordion-content">Meus Serviços</div>
+          </div>
 
-            <div class="accordions">
+          <div class="accordion-item">
+            <input type="radio" name="accordion" id="accordion-3" />
+            <label for="accordion-3">
+              Existe uma opção de filtragem para encontrar produtos específicos,
+              como por categoria, preço, marca, etc.?</label
+            >
+            <div class="accordion-content">Meus Contatos</div>
+          </div>
 
-                <div class="accordion-item">
+          <div class="accordion-item">
+            <input type="radio" name="accordion" id="accordion-4" />
+            <label for="accordion-4"
+              >Posso salvar produtos em uma lista de desejos para ver mais
+              tarde?</label
+            >
+            <div class="accordion-content">Meus Contatos</div>
+          </div>
 
-                    <input type="radio" name="accordion" checked="checked" id="accordion-1" />
-                    <label for="accordion-1">Como faço para adicionar um produto à minha lista de
-                        desejos?</label>
-                    <div class="accordion-content">Minha Empresa</div>
-                </div>
+          <div class="accordion-item">
+            <input type="radio" name="accordion" id="accordion-5" />
+            <label for="accordion-5"
+              >Existe uma opção de chat ao vivo ou suporte online para obter
+              ajuda adicional sobre um produto?</label
+            >
+            <div class="accordion-content">Meus Contatos</div>
+          </div>
+        </div>
+      </section>
 
-                <div class="accordion-item">
-                    <input type="radio" name="accordion" id="accordion-2" />
-                    <label for="accordion-2">Como posso pesquisar produtos no site?</label>
-                    <div class="accordion-content">Meus Serviços</div>
-                </div>
+      <section>
+        <div class="jovem">
+          <img
+            id="imagemredonda"
+            src="../imgs/jovem.jpeg"
+            alt="jovem"
+            width="400px"
+            height="400px"
+          />
+        </div>
+      </section>
 
-                <div class="accordion-item">
-                    <input type="radio" name="accordion" id="accordion-3" />
-                    <label for="accordion-3"> Existe uma opção de filtragem para encontrar produtos
-                        específicos, como por categoria, preço, marca, etc.?</label>
-                    <div class="accordion-content">Meus Contatos</div>
-                </div>
+      <section>
+        <div>
+          <h6 class="solução">Ainda com problemas?</h6>
+        </div>
+      </section>
 
-
-                <div class="accordion-item">
-                    <input type="radio" name="accordion" id="accordion-4" />
-                    <label for="accordion-4">Posso salvar produtos em uma lista de desejos para ver
-                        mais tarde?</label>
-                    <div class="accordion-content">Meus Contatos</div>
-                </div>
-
-
-                <div class="accordion-item">
-                    <input type="radio" name="accordion" id="accordion-5" />
-                    <label for="accordion-5">Existe uma opção de chat ao vivo ou suporte online para
-                        obter ajuda adicional sobre um produto?</label>
-                    <div class="accordion-content">Meus Contatos</div>
-                </div>
-
-            </div>
-
-        </section>
-
-
-
-        <section>
-
-            <div class="jovem">
-                <img id="imagemredonda" src="../imgs/jovem.jpeg" alt="jovem" width="400px" height="400px">
-            </div>
-
-        </section>
-
-        <section>
-
-            <div>
-                <h6 class="solução">Ainda com problemas?</h6>
-            </div>      
-
-        </section>
-
-        
-        <section>
-
-            <div>
-                <h6 class="fale">Fale conosco</h6>
-            </div>
-
-        </section>
+      <section>
+        <div>
+          <h6 class="fale">Fale conosco</h6>
+        </div>
+      </section>
     </main>
-
 
     <footer class="footer_dad">
       <div id="footer_content">
@@ -238,9 +234,5 @@
         <p>©️ 2024 LudoFashion. Todos os direitos reservados</p>
       </div>
     </footer>
-
-
-</body>
-
-
+  </body>
 </html>
