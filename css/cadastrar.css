@@ -214,7 +214,7 @@ nav a:first-child {
     border: 1px solid black;
     background-color: var(--cor-primaria);
     border-radius: 55px;
-    width: 700px;
+    width: 750px;
     height: 435px;
     padding: 6rem;
     
@@ -241,7 +241,8 @@ nav a:first-child {
 }
 
 h1 {
-    padding-top: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .form-group {   
@@ -253,7 +254,7 @@ h1 {
 
 }
 .form-group-item {
-    padding-top: 35px;
+    /* padding-top: 35px; */
     justify-content: space-between;
 }
 

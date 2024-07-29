@@ -1,193 +1,190 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cadastrar</title>
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="../css/cadastrar.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cadastrar</title>
 
-  <body>
-    <header>
-      <!--Logo da página -->
-      <a href="" class="logo">LudoFashion</a>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="../css/cadastrar.css" />
+</head>
 
-      <!--Seção de busca-->
+<body>
+  <header>
+    <!--Logo da página -->
+    <a href="" class="logo">LudoFashion</a>
 
-      <form action="" id="form-buscar">
-        <input
-          type="search"
-          name="buscar"
-          id="buscar"
-          placeholder="pesquise por marca, produto ou categoria..."
-        />
+    <!--Seção de busca-->
 
-        <!--Lupa de busca-->
+    <form action="" id="form-buscar">
+      <input type="search" name="buscar" id="buscar" placeholder="pesquise por marca, produto ou categoria..." />
 
-        <button type="submit" id="btn-buscar">
-          <button class="img">
-            <img src="../imgs/searchwhite.png" alt="" width="30px" />
-          </button>
+      <!--Lupa de busca-->
+
+      <button type="submit" id="btn-buscar">
+        <button class="img">
+          <img src="../imgs/searchwhite.png" alt="" width="30px" />
         </button>
-      </form>
+      </button>
+    </form>
 
-      <!--Cadatrar ou fazer o login dos usuários -->
-      <!--Tirar as dúvidas-->
+    <!--Cadatrar ou fazer o login dos usuários -->
+    <!--Tirar as dúvidas-->
+
+    <form>
+
+      <div>
+        <a href="" class="icon-link">
+          <img class="text1" src="../imgs/person100.png" alt="" width="30px" />cadastre-se<br />ou faça login
+        </a>
+
+
+
+
+        <a href="" class="icon-link">
+          <img class="text2" src="../imgs/help.png" alt="" width="30px" />dúvidas
+        </a>
+
+      </div>
+
+    </form>
+  </header>
+
+  <nav>
+    <a href="" class="font">Catálogo</a>
+
+    <a href="" class="font">Sobre a Loja</a>
+  </nav>
+
+
+
+  <section class="caixa">
+
+    <div class="container">
+
+      <div>
+        <h1 class="cadastrar">Cadastrar<h1>
+      </div>
 
       <form>
 
+        <div class="card">
+
+          <div class="dados">
+
+            <div class="form-group">
+
+              <div class="form-group-item">
+
+                <label class="nome" for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" required>
+
+              </div>
+
+            </div>
+
+            <div class="form-group">
+
+              <div class="form-group-item">
+                <label class="label" for="idade">E-mail</label>
+                <input type="text" id="idade" name="idade" required>
+              </div>
+
+            </div>
+
+            <div class="form-group">
+
+              <div class="form-group-item">
+
+                <label class="label" for="cpf">CPF</label>
+
+
+                <input id="accountId" name="accountId" autocomplete="new-password" tabindex="1" type="tel" value=""
+                  placeholder="" aria-invalid="false" data-listener-added_58bc7a1c="true">
+
+              </div>
+
+            </div>
+
+
+          </div>
+
+
+          <div>
+
+            <div class="form-group">
+
+              <div class="form-group-item">
+                <label for="curso">Nome de Usuario</label>
+                <input type="text" id="curso" name="curso" required>
+              </div>
+
+            </div>
+
+            <div class="form-group">
+
+              <div class="form-group-item">
+                <label for="curso">Numero de telefone</label>
+                <input type="text" id="curso" name="curso" required>
+              </div>
+
+            </div>
+
+            <div class="form-group">
+
+              <div class="form-group-item">
+                <label for="curso">Data de Nascimento</label>
+                <input type="date" id="curso" name="curso" required>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
         <div>
-          <a href="" class="icon-link">
-            <img
-            class="text1"
-              src="../imgs/person100.png"
-              alt=""
-              width="30px"
-            />cadastre-se<br />ou faça login
-          </a>
-        
+          <button class="button" type="submit">Cadastrar</button>
+        </div>
 
-        
+        <div>
 
-          <a href="" class="icon-link">
-            <img
-            class="text2"
-              src="../imgs/help.png"
-              alt=""
-              width="30px"
-            />dúvidas
+          <a class="item" href="">
+            <img src="" alt="">
+
+            <a href="">Já tem uma conta cadastrada</a>
           </a>
 
         </div>
+
+
+
+        <div class="icons">
+
+          <a>
+            <img class="google" src="../imgs/google.png" alt="" width="35px">
+            <img class="facebook" src="../imgs/facebookazul.png" alt="" width="35px">
+          </a>
+
+        </div>
+
+
+
 
       </form>
-    </header>
-
-    <nav>
-      <a href="" class="font">Catálogo</a>
-
-      <a href="" class="font">Sobre a Loja</a>
-    </nav>
 
 
 
-    <section class="caixa">
-        <div class="container">
-            <div>
-                <h1 class="cadastrar">Cadastrar<h1>
-            </div>
-            <form>
-                <div class="card">
-                    <div class="dados">
-
-                        <div class="form-group">
-
-                            <div class="form-group-item">
-                                <label class="nome" for="nome">Nome</label>
-                                <input type="text" id="nome" name="nome" required>
-                            </div>
-
-                        </div>
-
-                        <div class="form-group">
-
-                            <div class="form-group-item">
-                                <label class="label" for="idade">E-mail</label>
-                                <input type="text" id="idade" name="idade" required>
-                            </div>
-
-                        </div>
-
-                        <div class="form-group">
-
-                            <div class="form-group-item">
-                                <label class="label" for="cpf">CPF</label>
-                                
-
-                                <input id="accountId" name="accountId" autocomplete="new-password" tabindex="1" type="tel" value="" placeholder="" aria-invalid="false" data-listener-added_58bc7a1c="true">
-
-                            </div>
-
-                        </div>
 
 
-                    </div>
-
-
-                    <div class="dados">
-
-                        <div class="form-group">
-
-                            <div class="form-group-item">
-                                <label for="curso">Nome de Usuario</label>
-                                <input type="text" id="curso" name="curso" required>
-                            </div>
-
-                        </div>
-
-                        <div class="form-group">
-
-                            <div class="form-group-item">
-                                <label for="curso">Numero de telefone</label>
-                                <input type="text" id="curso" name="curso" required>
-                            </div>
-
-                        </div>
-
-                        <div class="form-group">
-
-                            <div class="form-group-item">
-                                <label for="curso">Data de Nascimento</label>
-                                <input type="date" id="curso" name="curso" required>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-            </form>
-
-            <div>
-                <button class="button" type="submit">Cadastrar</button>
-            </div>
-
-            <div>
-
-                <a class="item" href="">
-                    <img src="" alt="">
-
-                    <a href="">Já tem uma conta cadastrada</a>
-                </a>
-
-            </div>
+    </div>
 
 
 
-            <div class="icons">
-
-                <a>
-                    <img class="google" src="../imgs/google.png" alt="" width="35px">
-                    <img class="facebook" src="../imgs/facebookazul.png" alt="" width="35px">
-                </a>
-
-            </div>
-
-
-
-        </div>
-
-
-
-    </section>
+  </section>
 
 
 

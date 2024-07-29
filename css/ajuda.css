@@ -135,13 +135,13 @@ header {
 
 
 .icon-link {
-    display: grid;
-    grid-row: none;
+    display: flex;
+    align-items: center;
     text-decoration: none; /*tira o sublinhado da linha nos links*/
     
 }
 
-.text1 {
+.img-text1 {
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -151,7 +151,7 @@ header {
     
 }
 
-.text2 {
+.img-text2 {
     display: flex;
     flex-direction: column;
     margin: 0.4rem;

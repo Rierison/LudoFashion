@@ -359,6 +359,11 @@ nav a:first-child {
     color: #7f37c9;
 }
 
+
+
+/*------------email, botão----------------*/
+
+
 #footer-subscribe {
     display: flex;
     flex-direction: column;
@@ -376,6 +381,9 @@ nav a:first-child {
     background-color: var(--color-neutral-0);
     border-radius: 4px;
 }
+
+
+
 
 /* estilização da caixa do email*/
 #input_group input {
@@ -402,6 +410,9 @@ nav a:first-child {
     opacity: 0.8;
 
 }
+
+
+/*-----------------email, botão-----------------*/
 
 #footer_copyright {
     display: flex;
