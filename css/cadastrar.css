@@ -254,7 +254,7 @@ h1 {
 
 }
 .form-group-item {
-    /* padding-top: 35px; */
+    /* padding-top: 35px; */  /*principal erro dentro do container*/
     justify-content: space-between;
 }
 
